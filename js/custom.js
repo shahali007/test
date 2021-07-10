@@ -1,1 +1,5 @@
-console.log( 'Welcome to test!' );
+const getNewDate = () => {
+    return new Date();
+}
+
+console.log( getNewDate() );
